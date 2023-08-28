@@ -118,7 +118,6 @@ public class ControlPlayer : MonoBehaviour
             float time = i * predictionTime / (numPoints - 1);
             positions[i] = CalculatePredictedPosition(time);
         }
-
         lineRenderer.SetPositions(positions);
     } 
 

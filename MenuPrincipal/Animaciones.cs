@@ -8,6 +8,7 @@ public class Animaciones : MonoBehaviour
     [SerializeField] public List<GameObject> props;
     [SerializeField] float rotationSpeed = 1.0f; // Velocidad de rotación del Skybox
     // Start is called before the first frame update
+    
      void Update()
     {
         foreach (var Planeta in props)
